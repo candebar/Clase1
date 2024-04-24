@@ -5,20 +5,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+<link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
-  <h1>Presentacion personal</h1>
-  <h2>Me llamo Candelaria Barjollo, tengo 25 años y vivo en Rio Cuarto, Córdoba</h2>
-  <h3>Estoy muy interesada en el curso y tengo muchas ganas de aprender</h3>
+  <nav class="up"> 
+    <ul>
+      <li> Sobre mi</li> <a href="#abme">Ir a Presentacion</a>
+      <li> Multimedia</li> <a href="#foto">Ir a multimedia</a>
+    <li> Listas</li>  <a href="#listas">Ir a Listados</a>
+   </ul>
+  </nav>
+  <section>
+    <h1 class="rosa" id="abme">Presentacion personal</h1>
+    <p> Me llamo Candelaria Barjollo, tengo 25 años y vivo en Rio Cuarto, Córdoba </p>
+  </section>
+  <p>Estoy muy interesada en el curso y tengo muchas ganas de aprender</p>
   <hr>
-  <h4>Para ejemplificar el contenido multimedia voy a mostrar a mi perro y un video de una cancion que me gusta mucho
-  </h4>
+  <h2 class="rosa" id="foto">Para ejemplificar el contenido multimedia voy a mostrar a mi perro y un video de una cancion que me gusta mucho
+  </h2>
   <img src="./fotopolo.jpeg" alt="Foto de mi perro Polo" />
   <iframe width="560" height="315" src="https://www.youtube.com/embed/RQTgJRwMdKQ?si=yfQhGnV3Z0nv1jLK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
   <hr>
-  <h5>Listado de ciudades que quiero visitar</h5>
+  <h3 class="rosa" id="listas">Listado de ciudades que quiero visitar</h3>
   <ul>
     <li>New York</li>
     <li>Londres</li>
@@ -26,7 +35,7 @@
     <li>Madrid</li>
     <li>Transilvania</li>
   </ul>
-  <h6> Pasos para preparar un mate</h6>
+  <h3 class="rosa"> Pasos para preparar un mate</h3>
   <ol>
     <li>Poner yerba en el mate</li>
     <li>Sacudir un poco para sacarle el polvillo</li>
@@ -36,6 +45,7 @@
     <li>Listo!</li>
 
   </ol>
+  <footer class="rosa"> Gracias por ver</footer>
 </body>
 
 </html>
